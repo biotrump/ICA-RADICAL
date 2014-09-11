@@ -20,7 +20,7 @@
  * MLPACK.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <mlpack/core.hpp>
+#include <core.hpp>
 #include "radical.hpp"
 
 PROGRAM_INFO("RADICAL", "An implementation of RADICAL, a method for independent"

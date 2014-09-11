@@ -24,7 +24,7 @@
 #ifndef __MLPACK_METHODS_RADICAL_RADICAL_HPP
 #define __MLPACK_METHODS_RADICAL_RADICAL_HPP
 
-#include <mlpack/core.hpp>
+#include <core.hpp>
 
 namespace mlpack {
 namespace radical {

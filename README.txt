@@ -104,6 +104,8 @@ You can specify options to compile with debugging information and profiling
 information:
 
 $ cmake -D DEBUG=ON -D PROFILE=ON ../
+if you build a boost c++ lib from source,
+cmake -D BOOST_ROOT=/home/thomas/Downloads/boost_1_56_0 ../
 
 Options are specified with the -D flag.  A list of options allowed:
 
