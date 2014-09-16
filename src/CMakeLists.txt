@@ -1,6 +1,7 @@
 # Define the files we need to compile
 # Anything not in this list will not be compiled into the output library
 set(SOURCES
+	detrend.c
    radical.hpp
    radical.cpp
 )
