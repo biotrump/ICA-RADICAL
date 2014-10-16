@@ -324,7 +324,7 @@ if (0)
     install(DIRECTORY ${CMAKE_BINARY_DIR}/share/man/
         DESTINATION share/man/man1/)
   endif (NOT TXT2MAN)
-endif (UNIX)
+endif (0)
 
 ###################
 # MLPACK_SRCS is set in the subdirectories.
@@ -393,4 +393,4 @@ add_custom_target(test
   WORKING_DIRECTORY ${CMAKE_BINARY_DIR}/ # This is where test files are put.
   COMMENT "Running MLPACK test"
   DEPENDS mlpack_test)
-  
+

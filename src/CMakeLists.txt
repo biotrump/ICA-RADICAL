@@ -17,7 +17,9 @@ set(MLPACK_SRCS ${MLPACK_SRCS} ${DIR_SRCS} PARENT_SCOPE)
 add_executable(radical
   radical_main.cpp
 )
+
 target_link_libraries(radical
   mlpack
 )
+
 install(TARGETS radical RUNTIME DESTINATION bin)
